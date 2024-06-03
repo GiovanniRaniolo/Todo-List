@@ -34,7 +34,7 @@ export const tasks = [
     {
         id: 5,
         title: 'Grocery Shopping',
-        description: 'Buy groceries for the week.',
+        description: 'Buy groceries for the week. Remember to get fresh vegetables, fruits, milk, and whole grain bread.',
         category: 'personal-task',
         iconSrc: './icons/icon-park-outline--user.png',
         dueDate: '2024-06-05'
