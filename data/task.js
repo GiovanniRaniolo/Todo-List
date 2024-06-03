@@ -164,7 +164,6 @@ export const tasks = [
 const taskTypes = [
 'personal-task', 'urgent-personal-task', 'work-task', 'urgent-work-task', 'done'
 ];
-
 // aggiungere la categoria done
 
 export {

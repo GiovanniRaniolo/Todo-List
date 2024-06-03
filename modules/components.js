@@ -19,19 +19,15 @@ const cardElGen = (obj) => {
     cardHeader.appendChild(cardIcon);
     cardHeader.appendChild(cardTitle);
 
-    // Create the card description
-
  // Create the card description
     const cardDescriptionBox = document.createElement('div');
     cardDescriptionBox.classList.add('card-description-box');
     
     const cardDescription = document.createElement('p');
     cardDescription.classList.add('card-description');
-    cardDescription.textContent = obj.description; // Assume che obj abbia una proprietà description
+    cardDescription.textContent = obj.description; 
 
-    cardDescriptionBox.appendChild(cardDescription); // Aggiunge la descrizione alla scatola della descrizione
-
-
+    cardDescriptionBox.appendChild(cardDescription);
 
     // Create the card due date
     const cardDueDate = document.createElement('p');
@@ -57,9 +53,9 @@ const cardElGen = (obj) => {
     doneIcon.src = './icons/icon-park-outline--done-all.png';
     doneIcon.alt = 'done';
 
-    // Aggiungiamo il listener per il click sull'icona di eliminazione
+    // Listener for delete function
     deleteIcon.addEventListener('click', function() {
-        card.remove(); // Rimuoviamo la carta quando l'icona di eliminazione viene cliccata
+        card.remove(); 
     });
 
     cardFooter.appendChild(editIcon);
