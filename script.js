@@ -64,7 +64,6 @@ const renderListType = () => {
 	})
 }
 
-
 // Aggiunge la funzione di eliminazione all'icon con classe "delete-icon"
 const addDeleteFunctionality = () => {
     const deleteIcons = document.querySelectorAll('.delete-icon');
